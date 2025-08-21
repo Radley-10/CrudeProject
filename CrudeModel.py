@@ -1,13 +1,3 @@
-"""Beginner-friendly pipeline to predict pipeline revenues and forecast top companies.
-
-What it does, in simple steps:
-- Loads the East Daley CSV
-- Extracts a tidy table with one row per (company, year)
-- Trains a small model and evaluates it on a test set
-- Saves test predictions and feature importance
-- Forecasts 2025–2027 and saves top companies per year
-"""
-
 from __future__ import annotations
 
 import warnings
